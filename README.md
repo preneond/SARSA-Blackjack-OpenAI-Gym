@@ -1,0 +1,6 @@
+## SARSA Reinforcement Learning Agent using OpenAI Gym
+Agent implementation capable of playing a simplified version of the blackjack game (sometimes called 21-game). The complete rules are in detail explained on [Wikipedia](https://en.wikipedia.org/wiki/Blackjack). However, in our project, we will restrict ourselves only to a simplified version.
+The game is played with a standard deck of 52 cards, which is shuffled. Your goal is to score more than the dealer; however, you do not want to get over 21. In the beginning, you are given two cards and see one card that the dealer has. You can decide whether you draw one more card or stop playing. Once you stop playing, it is the dealer’s turn. The dealer has to follow a fixed strategy — as long as the sum of his cards is less than 17, he has to draw a card. Dealer stops when this condition becomes false.
+Face cards (Jack, Queen, and King) have value 10. Ace can be counted as 1 or 11.
+At the end of the game, the player loses if the value of his cards exceeds 21. We call this situation bust. The player loses even if the dealer busts too. If the dealer busts and player not, the player wins. If neither the player nor the dealer busts, the winner is determined by the value of cards. The player with a higher sum of cards wins. Equal sums mean tie.
+
